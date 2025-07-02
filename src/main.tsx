@@ -1,7 +1,6 @@
 import { createRoot } from "react-dom/client"
+import { App } from "./App.tsx"
 
-export const App = () => {
-  return <h1>App</h1>
-}
 
 createRoot(document.getElementById("root")!).render(<App />)
+
